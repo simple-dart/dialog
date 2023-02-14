@@ -12,7 +12,7 @@ abstract class AbstractDialog<T> extends PanelComponent {
   Completer<T?> completer = Completer<T?>();
 
   Future<T?> showDialog() {
-    modalController.showComponentModal(this);
+    modalController.showModal(this);
     modalController.onClick.listen((event) {
       completer.complete(null);
       closeDialog();

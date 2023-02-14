@@ -1,6 +1,6 @@
 name: simple_dart_dialog
 description: Dialog Components
-version: 0.0.1
+version: 0.0.2
 repository: https://github.com/simple-dart/dialog
 platforms:
   web:
@@ -11,5 +11,5 @@ environment:
 
 dependencies:
   simple_dart_label: ^0.0.1
-  simple_dart_modal_controller: ^0.0.1
+  simple_dart_modal_controller: ^0.0.2
   simple_dart_ui_core: ^0.0.2
